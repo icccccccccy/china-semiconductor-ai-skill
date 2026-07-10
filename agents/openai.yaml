@@ -1,0 +1,15 @@
+interface:
+  display_name: "\u56FD\u4EA7\u534A\u5BFC\u4F53\u4E0EAI\u8DDF\u8E2A"
+  short_description: "\u6301\u7EED\u8DDF\u8E2A\u56FD\u4EA7\u8BBE\u5907\u3001\u5B58\
+    \u50A8\u3001\u7B97\u529B\u4E0EAI\u516C\u53F8\u7684\u5173\u952E\u8FDB\u5C55\u548C\
+    \u6295\u8D44\u6620\u5C04"
+  default_prompt: "\u4F7F\u7528 $track-china-semiconductor-ai \u68C0\u67E5\u8FC7\u53BB\
+    24\u5C0F\u65F6\u7684\u5173\u952E\u8FDB\u5C55\uFF0C\u53EA\u5206\u6790\u6709\u660E\
+    \u786E\u516C\u53F8\u6620\u5C04\u7684\u65B0\u95FB\u3002"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
