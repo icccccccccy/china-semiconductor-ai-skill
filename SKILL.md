@@ -1,6 +1,6 @@
 ---
 name: track-china-semiconductor-ai
-description: 持续监测并滚动分析中国半导体设备、国产存储、国产算力基础设施与国产AI公司的重要公告、订单、技术进展和行业周期变化。用于近24小时或定期产业跟踪、新闻到A股/港股公司的严格映射、财报或公告后的假设更新、国产替代与资本开支周期判断，以及公司催化剂、风险和交易位置跟踪；只有存在可核验证据的公司映射时才做公司分析。
+description: 持续监测并滚动分析中国半导体设备、国产存储、国产算力基础设施与国产AI公司的重要公告、订单、技术进展和行业周期变化。用于近24小时或定期产业跟踪、新闻到A股/港股公司的严格映射、财报驱动的下一年度营收三情景、Forward PS与历史PS Band更新、国产替代与资本开支周期判断，以及公司催化剂、风险和交易位置跟踪；只有存在可核验证据的公司映射时才做公司分析。
 ---
 
 # 国产半导体与AI跟踪
@@ -98,7 +98,15 @@ description: 持续监测并滚动分析中国半导体设备、国产存储、�
 - 存储公司必须区分景气峰值利润与周期归一化利润。
 - 算力和AI公司必须验证订单、交付、利用率、tokens、付费、推理成本和真实收入，不能只看模型榜单、下载量或发布会口号。
 
-### 8. 输出
+### 8. 财报驱动估值（条件触发）
+
+当任务涉及季报/年报、下一年度营收、PS Band或预期修订时，读取 [references/earnings-valuation-method.md](references/earnings-valuation-method.md)，使用 [references/valuation-update-template.md](references/valuation-update-template.md)。先核原始财报和公告时点，再按验收队列或季节性路径预测；订单不足时明确降为条件情景。调用 `scripts/earnings_valuation.py` 生成可复核测算。
+
+- 禁止把合同负债或存货当订单销售额，禁止当前股本回填历史、季末数据提前使用、当前Forward PS与历史TTM直接比大小。
+- 冻结每版输入、结果、目标年度及哈希，区分收入增长、估值倍数和股本变化的贡献。缺失字段为null并说明阻止什么结论。
+- 中科飞测首个案例：[assets/valuation/688361/validation-case.md](assets/valuation/688361/validation-case.md)。迁移北方华创、中微、拓荆时替换数据和假设，不能复制增长率或倍数。
+
+### 9. 输出
 
 使用 [references/output-template.md](references/output-template.md) 的格式。先给一句直接判断，再报告真正改变判断的事件。每条事件只分析被证据影响的公司，不为了形式完整逐一点评公司池。
 

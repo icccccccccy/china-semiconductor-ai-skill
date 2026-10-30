@@ -52,3 +52,7 @@
 - 把匿名客户、意向协议、招标线索或传闻当作订单。
 - 由股价上涨反推基本面改善。
 - 用单一估值倍数替代产业、业绩和周期分析。
+
+## 财报/估值任务附加模块（按需触发）
+
+使用 [valuation-update-template.md](valuation-update-template.md) 记录财报事实表、下一年度营收三情景、Forward PS、同口径历史Band、版本修订与证伪条件。方法见 [earnings-valuation-method.md](earnings-valuation-method.md)。普通产业日报不强制添加。

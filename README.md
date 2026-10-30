@@ -192,3 +192,21 @@ flowchart TD
 ## 边界说明
 
 本 Skill 是公开信息研究与投资判断辅助工具，不构成投资建议，也不能替代对原始公告、财报、招股书和交易所文件的独立核验。传闻、匿名客户和未经确认的供应关系不会被视为已确认订单或收入。
+
+
+## 财报驱动估值模块
+
+财报更新时，可复用季度标准化、验收队列/季节性收入三情景、下一年度Forward PS、按公告可见时点计算的历史TTM Band和预测误差评分。
+
+- [测算方法与数据契约](references/earnings-valuation-method.md)
+- [估值更新模板](references/valuation-update-template.md)
+- [中科飞测首例验证](assets/valuation/688361/validation-case.md)
+- [输入与来源台账](assets/valuation/688361/model.json)
+- [首版冻结预测](assets/valuation/688361/vintages/2026-10-30.json)
+
+```bash
+python3 scripts/earnings_valuation.py assets/valuation/688361/model.json --output-dir output/688361
+python3 -m unittest discover -s tests -v
+```
+
+Python标准库即可离线复算。实际数据缺失保留null；历史Forward档案不足时不生成对应分位，不用历史TTM倍数直接证明Forward估值便宜。中科飞测的增长/毛利率假设仅为该例条件情景，不是北方华创、中微或拓荆的默认参数。

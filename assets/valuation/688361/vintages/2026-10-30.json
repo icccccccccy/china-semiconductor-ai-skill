@@ -1,0 +1,191 @@
+{
+  "status": "screen-grade",
+  "as_of": "2026-10-30",
+  "ticker": "688361.SH",
+  "market_cap": 75085580390.88,
+  "total_shares": 352051671,
+  "close_unadjusted": 213.28,
+  "current_ttm_revenue": 2465633103.33,
+  "current_ps_ttm": 30.45286027733485,
+  "ttm_percentile_within_partial_window": 0.5660377358490566,
+  "cases": [
+    {
+      "name": "bear",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "current_year_quarters": [
+        396023624.52,
+        544994079.24,
+        673041663.1300001,
+        936731110.0840001
+      ],
+      "current_year_revenue": 2550790476.974,
+      "next_year_quarters": [
+        475228349.42399997,
+        653992895.0879999,
+        807649995.7560002,
+        1124077332.1008
+      ],
+      "next_year_revenue": 3060948572.3688,
+      "next_year_revenue_growth": 0.20000000000000018,
+      "forward_ps": 24.53016723922707,
+      "next_year_gross_margin_assumption": 0.46,
+      "next_year_gross_profit_sensitivity": 1408036343.289648,
+      "next_year_rd_sensitivity": 1218306409.0626,
+      "next_year_rd_ratio_sensitivity": 0.3980159680107855,
+      "rationale": "验收放缓、竞争定价延续，收入增长低于当前速度",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    },
+    {
+      "name": "base",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "current_year_quarters": [
+        396023624.52,
+        544994079.24,
+        673041663.1300001,
+        1143765180.7049832
+      ],
+      "current_year_revenue": 2757824547.594983,
+      "next_year_quarters": [
+        534631893.102,
+        735742006.9740001,
+        908606245.2255002,
+        1544082993.9517274
+      ],
+      "next_year_revenue": 3723063139.2532277,
+      "next_year_revenue_growth": 0.3500000000000001,
+      "forward_ps": 20.167689233962516,
+      "next_year_gross_margin_assumption": 0.5,
+      "next_year_gross_profit_sensitivity": 1861531569.6266139,
+      "next_year_rd_sensitivity": 1218306409.0626,
+      "next_year_rd_ratio_sensitivity": 0.32723227178655045,
+      "rationale": "Q4延续YTD同比、2027维持约35%增长，先进制程收入改善组合",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    },
+    {
+      "name": "bull",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "current_year_quarters": [
+        396023624.52,
+        544994079.24,
+        673041663.1300001,
+        1277360604.66
+      ],
+      "current_year_revenue": 2891419971.55,
+      "next_year_quarters": [
+        594035436.78,
+        817491118.86,
+        1009562494.6950002,
+        1916040906.9900002
+      ],
+      "next_year_revenue": 4337129957.325001,
+      "next_year_revenue_growth": 0.5000000000000002,
+      "forward_ps": 17.312273584070866,
+      "next_year_gross_margin_assumption": 0.53,
+      "next_year_gross_profit_sensitivity": 2298678877.3822503,
+      "next_year_rd_sensitivity": 1265164347.8727,
+      "next_year_rd_ratio_sensitivity": 0.2917054273958191,
+      "rationale": "交付和验收加快、新品贡献扩大；需要新增订单与产能证据",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "2026-09-30 backlog / new orders / shipped_goods",
+      "reason": "三季报未披露数额或存货分类；不以合同负债、总存货代替"
+    },
+    {
+      "field": "acceptance-cohort schedule and 2027 capacity",
+      "reason": "未取得可量化、可交叉核对的证据"
+    },
+    {
+      "field": "historical next-calendar-year revenue forecast vintages",
+      "reason": "没有可验证的当时预测档案；禁止以今日预测倒填"
+    },
+    {
+      "field": "full-listing PIT report and announcement stream",
+      "reason": "本次仅整理2025-04起定期报告及2025业绩快报，历史统计为局部描述"
+    }
+  ],
+  "warnings": [
+    "Scenario growth/margins/R&D are analyst assumptions, not company guidance.",
+    "Historical band is a partial descriptive sample; forward comparison unavailable without frozen vintages.",
+    "PS grid is a sensitivity grid, not calibrated fair multiples or target prices.",
+    "Inventory cost and contract advances are not additive sales backlog; no net-profit or cash forecast implied."
+  ],
+  "forecast_year": 2027,
+  "input_sha256": "3cc739d895ae1e23e684608e9f7069b23333cc33cb1e9c341790b260286343aa",
+  "prices_sha256": "2e024e1689cf07fda9b707764065213b913f7f5f01ed3e0192041ad146a65ee8",
+  "engine_sha256": "3c9d9f48179f4817554c060b063c76f6e33fdcbba7cede107886f3bb2e387473",
+  "history_summary": {
+    "definition": "equity market cap / consolidated revenue TTM; no EV or float cap",
+    "scope_note": "18个月局部窗口；不覆盖上市全历史；仅按已整理的定期报告及快报更新；未声称事件流完整",
+    "requested_start": "2025-04-07",
+    "requested_end": "2026-10-29",
+    "actual_start": "2025-04-07",
+    "actual_end": "2026-10-29",
+    "n": 371,
+    "quantiles": {
+      "p10": 17.91797087252313,
+      "p25": 19.350626285087273,
+      "p50": 28.957176138663154,
+      "p75": 39.56393781140275,
+      "p90": 55.80125905792171
+    },
+    "excluded": [
+      {
+        "date": "2025-06-12",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2025-06-13",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2025-10-20",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2025-10-21",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2025-10-22",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2025-10-23",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2026-07-07",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2026-07-08",
+        "reason": "share registration/disclosure ambiguity"
+      },
+      {
+        "date": "2026-07-09",
+        "reason": "share registration/disclosure ambiguity"
+      }
+    ],
+    "historical_forward_n": 0,
+    "historical_forward_quantiles": null,
+    "forward_comparability": "missing archived forecasts"
+  }
+}

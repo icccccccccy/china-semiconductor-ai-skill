@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "ticker": "688361.SH",
+  "name": "中科飞测",
+  "analysis_date": "2026-10-30",
+  "currency": "CNY",
+  "amount_unit": "yuan",
+  "scope": "consolidated",
+  "forecast_year": 2027,
+  "source_ledger": {
+    "fy2024": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-04/1223006264.PDF",
+      "published": "2025-04-04",
+      "locator": "p8-11; consolidated statements; equity table",
+      "sha256": "824df2bcfa62d3295043719d9b47bb7018654e18612c111d29a58ce7310daba3"
+    },
+    "fy2025": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225182753.PDF",
+      "published": "2026-04-25",
+      "locator": "p8-10,44-45,131-135,156-164,204-205, revenue recognition policy",
+      "sha256": "d28793780370feee7231e70a02cdd5b473571bc0f76052708d12e5d642aacff4"
+    },
+    "q12026": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225228974.PDF",
+      "published": "2026-04-29",
+      "locator": "p1-2,8-14 consolidated statements",
+      "sha256": "f7b3051ed73be8d838531092f4d493f438809650267f9b3d566cdd7aae2ac302"
+    },
+    "h12026": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505252.PDF",
+      "published": "2026-08-26",
+      "locator": "p8-9,30,89-90,100-110,159-160",
+      "sha256": "5f70c36855ecf937a8bf861e80d62682e576e23d9193f201f38b11dd47e73451"
+    },
+    "q32026": {
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12677757&stockid=688361",
+      "provided_file": "688361深圳中科飞测科技股份有限公司2026年第三季度报告.pdf",
+      "published": "2026-10-30",
+      "locator": "p1-4,6-13; user PDF primary, public mirror for retrieval",
+      "sha256": "689e0219180e868f7cb7f8ade8797ae8eb0c0aea142f31dc1f8e2a05d619c326"
+    },
+    "q12025": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-26/1223310364.PDF",
+      "published": "2025-04-26",
+      "locator": "p1 consolidated revenue",
+      "sha256": "ee948e0eb7bbeeca1bc6d960da1364e3cff077b95fc8457d05ce6ec418da8857"
+    },
+    "h12025": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-19/1224504080.PDF",
+      "published": "2025-08-19",
+      "locator": "consolidated revenue; agrees FY2025 quarterly table",
+      "sha256": "79a621f6e18b232b2a9a72d9d4b5721a7d3a5665fc48bc0d5f43b0d9dc88e86e"
+    },
+    "q32025": {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-10-31/1224772905.PDF",
+      "published": "2025-10-31",
+      "locator": "p1, consolidated income statement",
+      "sha256": "525424a38e76112c451e8603d6a7b82b4f95bf44063c171ebaaf3b8919fb4e4c"
+    },
+    "flash2025": {
+      "url": "https://paper.cnstock.com/html/2026-02/28/content_2183407.htm",
+      "published": "2026-02-28",
+      "locator": "company announcement, revenue in RMB 10,000; preliminary"
+    },
+    "shares2025a": {
+      "url": "https://paper.cnstock.com/html/2025-06/14/content_2080901.htm",
+      "published": "2025-06-14",
+      "locator": "registration 2025-06-12; 321591809 total shares"
+    },
+    "shares2025b": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11525278&stockid=688361",
+      "published": "2025-10-23",
+      "locator": "company announcement 2025-052; registration 2025-10-20; total share table; cross-check FY2025 p131-135"
+    },
+    "shares2026": {
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12436838",
+      "published": "2026-07-09",
+      "locator": "company announcement original mirror; registration 2026-07-07; total shares 352051671; cross-check H12026 p89-90"
+    },
+    "daily": {
+      "url": "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sh688361&scale=240&ma=no&datalen=1200",
+      "retrieved_on": "2026-10-30",
+      "locator": "day and close, vendor native unadjusted daily series; no split reconstruction",
+      "sha256": "61f966567a82a37bf9bbe62328a4bde5d4ae56f006402e620ab8db5e227376b9"
+    },
+    "quote": {
+      "url": "https://www.hstong.com/quotes/30000-688361-SH",
+      "retrieved_on": "2026-10-30",
+      "locator": "close 213.28, total market cap 750.86亿元; other fields not used"
+    },
+    "quote_check": {
+      "url": "https://cn.investing.com/equities/skyverse-tech-historical-data",
+      "retrieved_on": "2026-10-30",
+      "locator": "10/30 close213.28 and 10/29 close228.27; cross-check daily endpoint"
+    }
+  },
+  "periods": [
+    {
+      "year": 2024,
+      "months": 12,
+      "revenue": 1380378763.53,
+      "cost": 705395575.87,
+      "rd": 497968883.61,
+      "cfo": -312700959.47,
+      "contract_liabilities": 629227776.77,
+      "inventory_net": 1746761508.67,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": null,
+      "source": "fy2024",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2025,
+      "months": 3,
+      "revenue": 294158044.69,
+      "cost": 123322249.57,
+      "rd": 120354159.82,
+      "cfo": -48745457.34,
+      "contract_liabilities": null,
+      "inventory_net": null,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": null,
+      "source": "q12025",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2025,
+      "months": 6,
+      "revenue": 702173929.99,
+      "cost": 320848332.76,
+      "rd": 285416543.92,
+      "cfo": -442362199.68,
+      "contract_liabilities": null,
+      "inventory_net": null,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": null,
+      "source": "h12025",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2025,
+      "months": 9,
+      "revenue": 1201724435.3,
+      "cost": 577161463.84,
+      "rd": 440058055.98,
+      "cfo": -678542897.18,
+      "contract_liabilities": 568328963.07,
+      "inventory_net": null,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": null,
+      "source": "q32025",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2025,
+      "months": 12,
+      "revenue": 2053298171.74,
+      "cost": 1028143933.57,
+      "rd": 656111506.76,
+      "cfo": -862171235.18,
+      "contract_liabilities": 565393625.41,
+      "inventory_net": 2698756600.21,
+      "accounts_receivable_net": 722607217.45,
+      "sales_cash_receipts": null,
+      "source": "fy2025",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2026,
+      "months": 3,
+      "revenue": 396023624.52,
+      "cost": 206835967.18,
+      "rd": 183189585.13,
+      "cfo": -20237418.15,
+      "contract_liabilities": 880845898.96,
+      "inventory_net": 3001682225.63,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": 718506077.72,
+      "source": "q12026",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2026,
+      "months": 6,
+      "revenue": 941017703.76,
+      "cost": 507011409.2,
+      "rd": 381177813.55,
+      "cfo": -190284041.29,
+      "contract_liabilities": 940473512.93,
+      "inventory_net": 3400700482.73,
+      "accounts_receivable_net": null,
+      "sales_cash_receipts": 1373903641.77,
+      "source": "h12026",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    },
+    {
+      "year": 2026,
+      "months": 9,
+      "revenue": 1614059366.89,
+      "cost": 833737100.1,
+      "rd": 634683945.11,
+      "cfo": -346421398.61,
+      "contract_liabilities": 1430483142.03,
+      "inventory_net": 4289321964.92,
+      "accounts_receivable_net": 939380326.65,
+      "sales_cash_receipts": 2521336631.95,
+      "source": "q32026",
+      "status": "reported",
+      "new_orders": null,
+      "backlog_ex_tax": null
+    }
+  ],
+  "historical_revenue_snapshots": [
+    {
+      "published": "2025-04-04",
+      "source": "fy2024",
+      "year": 2024,
+      "months": 12,
+      "revenue_ytd": 1380378763.53,
+      "prior_year_same_ytd": 0,
+      "prior_fy_revenue": 0,
+      "status": "reported"
+    },
+    {
+      "published": "2025-04-26",
+      "source": "q12025",
+      "year": 2025,
+      "months": 3,
+      "revenue_ytd": 294158044.69,
+      "prior_year_same_ytd": 235529768.02,
+      "prior_fy_revenue": 1380378763.53,
+      "status": "reported"
+    },
+    {
+      "published": "2025-08-19",
+      "source": "h12025",
+      "year": 2025,
+      "months": 6,
+      "revenue_ytd": 702173929.99,
+      "prior_year_same_ytd": 463822232.35,
+      "prior_fy_revenue": 1380378763.53,
+      "status": "reported"
+    },
+    {
+      "published": "2025-10-31",
+      "source": "q32025",
+      "year": 2025,
+      "months": 9,
+      "revenue_ytd": 1201724435.3,
+      "prior_year_same_ytd": 812429412.28,
+      "prior_fy_revenue": 1380378763.53,
+      "status": "reported"
+    },
+    {
+      "published": "2026-02-28",
+      "source": "flash2025",
+      "year": 2025,
+      "months": 12,
+      "revenue_ytd": 2053298200.0,
+      "prior_year_same_ytd": 0,
+      "prior_fy_revenue": 0,
+      "status": "preliminary"
+    },
+    {
+      "published": "2026-04-25",
+      "source": "fy2025",
+      "year": 2025,
+      "months": 12,
+      "revenue_ytd": 2053298171.74,
+      "prior_year_same_ytd": 0,
+      "prior_fy_revenue": 0,
+      "status": "reported"
+    },
+    {
+      "published": "2026-04-29",
+      "source": "q12026",
+      "year": 2026,
+      "months": 3,
+      "revenue_ytd": 396023624.52,
+      "prior_year_same_ytd": 294158044.69,
+      "prior_fy_revenue": 2053298171.74,
+      "status": "reported"
+    },
+    {
+      "published": "2026-08-26",
+      "source": "h12026",
+      "year": 2026,
+      "months": 6,
+      "revenue_ytd": 941017703.76,
+      "prior_year_same_ytd": 702173929.99,
+      "prior_fy_revenue": 2053298171.74,
+      "status": "reported"
+    },
+    {
+      "published": "2026-10-30",
+      "source": "q32026",
+      "year": 2026,
+      "months": 9,
+      "revenue_ytd": 1614059366.89,
+      "prior_year_same_ytd": 1201724435.3,
+      "prior_fy_revenue": 2053298171.74,
+      "status": "reported"
+    }
+  ],
+  "shares_history": [
+    {
+      "effective": "2023-05-19",
+      "public_from": "2023-05-19",
+      "total_shares": 320000000,
+      "source": "fy2024"
+    },
+    {
+      "effective": "2025-06-12",
+      "public_from": "2025-06-15",
+      "total_shares": 321591809,
+      "source": "shares2025a"
+    },
+    {
+      "effective": "2025-10-20",
+      "public_from": "2025-10-24",
+      "total_shares": 350163237,
+      "source": "shares2025b"
+    },
+    {
+      "effective": "2026-07-07",
+      "public_from": "2026-07-10",
+      "total_shares": 352051671,
+      "source": "shares2026"
+    }
+  ],
+  "market": {
+    "date": "2026-10-30",
+    "close_unadjusted": 213.28,
+    "total_shares": 352051671,
+    "reported_market_cap_yuan": 75086000000,
+    "price_source": "quote",
+    "shares_source": "h12026",
+    "market_cap_relative_tolerance": 0.0001
+  },
+  "history": {
+    "start": "2025-04-07",
+    "end": "2026-10-29",
+    "price_file": "prices.csv",
+    "price_basis": "unadjusted",
+    "source": "daily",
+    "scope_note": "18个月局部窗口；不覆盖上市全历史；仅按已整理的定期报告及快报更新；未声称事件流完整"
+  },
+  "historical_forward_snapshots": [],
+  "quarter_revenues": {
+    "2024": [
+      235529768.02,
+      228292464.33,
+      348607179.93,
+      567949351.25
+    ],
+    "2025": [
+      294158044.69,
+      408015885.3,
+      499550505.31,
+      851573736.44
+    ]
+  },
+  "quarter_revenue_sources": {
+    "2024": "fy2024",
+    "2025": "fy2025"
+  },
+  "shipped_goods": [
+    {
+      "date": "2025-12-31",
+      "gross_cost": 1043465778.04,
+      "impairment": 47576601.61,
+      "net_cost": 995889176.43,
+      "source": "fy2025"
+    },
+    {
+      "date": "2026-06-30",
+      "gross_cost": 1434208357.36,
+      "impairment": 65300863.22,
+      "net_cost": 1368907494.14,
+      "source": "h12026"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "2026-09-30 backlog / new orders / shipped_goods",
+      "reason": "三季报未披露数额或存货分类；不以合同负债、总存货代替"
+    },
+    {
+      "field": "acceptance-cohort schedule and 2027 capacity",
+      "reason": "未取得可量化、可交叉核对的证据"
+    },
+    {
+      "field": "historical next-calendar-year revenue forecast vintages",
+      "reason": "没有可验证的当时预测档案；禁止以今日预测倒填"
+    },
+    {
+      "field": "full-listing PIT report and announcement stream",
+      "reason": "本次仅整理2025-04起定期报告及2025业绩快报，历史统计为局部描述"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "bear",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "q4_current_year_yoy": 0.1,
+      "next_year_quarter_yoy": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "next_year_gross_margin": 0.46,
+      "current_year_q4_rd_yoy": 0.4,
+      "next_year_rd_growth": 0.3,
+      "rationale": "验收放缓、竞争定价延续，收入增长低于当前速度",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    },
+    {
+      "name": "base",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "q4_current_year_yoy": 0.3431193703630271,
+      "next_year_quarter_yoy": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "next_year_gross_margin": 0.5,
+      "current_year_q4_rd_yoy": 0.4,
+      "next_year_rd_growth": 0.3,
+      "rationale": "Q4延续YTD同比、2027维持约35%增长，先进制程收入改善组合",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    },
+    {
+      "name": "bull",
+      "mode": "quarter_growth",
+      "evidence_class": "analyst_assumption",
+      "q4_current_year_yoy": 0.5,
+      "next_year_quarter_yoy": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "next_year_gross_margin": 0.53,
+      "current_year_q4_rd_yoy": 0.4,
+      "next_year_rd_growth": 0.35,
+      "rationale": "交付和验收加快、新品贡献扩大；需要新增订单与产能证据",
+      "falsifiers": [
+        "2026Q4收入低于本情景预测10%以上则复核2027基数",
+        "2027任一季度收入低于对应预测10%以上则复核验收与订单",
+        "毛利率偏离预测3个百分点或研发费率偏离5个百分点时复核PS适用性"
+      ]
+    }
+  ],
+  "valuation_ps_grid": [
+    8,
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "validation_policy": {
+    "revenue_error_review": 0.1,
+    "gm_error_pp_review": 3,
+    "rd_ratio_error_pp_review": 5,
+    "note": "分析师复核阈值，非经回测证明的最优参数；触发即重估，不能机械买卖"
+  },
+  "revision_log": [
+    {
+      "date": "2026-10-30",
+      "version": "v1",
+      "prior": null,
+      "new_evidence": "2026Q3 primary report",
+      "change": "initial conditional model; no prior model reconstructed"
+    }
+  ]
+}
